@@ -1,0 +1,33 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora INSS</title>
+    <link rel="stylesheet" href="style.css">
+<style type="text/css" id="operaUserStyle"></style><style type="text/css"></style></head>
+<body>
+
+    <div id="container">
+        <div id="title">
+            Calculadora do INSS
+        </div>
+        <div class="row">
+            <label for="salario">Salário Bruto:</label>
+            <input type="number" name="salario" id="salario" min="0" step="0.01" oninput="calcular()">
+        </div>
+        <div class="row">
+            <span>Valor do INSS:</span>
+            <span id="inss" class="valor">R$ 0,00</span>
+        </div>
+        <div class="row">
+            <span>FGTS:</span>
+            <span id="fgts" class="valor">R$ 0,00</span>
+        </div>
+        <div class="row">
+            <span>Salário Liquido:</span>
+            <span id="liquido" class="valor">R$ 0,00</span>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+
+
+</body></html>
