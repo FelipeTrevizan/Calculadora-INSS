@@ -4,10 +4,10 @@ function calcular() {
   
     // Tabelas de alíquotas e teto do INSS (valores fictícios para demonstração)
     const faixas = [
-      { teto: 1000, aliquota: 0.75 },
-      { teto: 2000, aliquota: 0.90 },
-      { teto: 5000, aliquota: 0.12 },
-      { teto: Infinity, aliquota: 0.14 },
+      { teto: 1412, aliquota: 0.75 },
+      { teto: 2666.68, aliquota: 0.90 },
+      { teto: 4000.03, aliquota: 0.12 },
+      { teto: 7786.02, aliquota: 0.14 },
     ];
   
     // Encontrar a faixa de salário correta
